@@ -14,8 +14,8 @@ export default class App extends Component {
             id: 1,
             name: 'Custom Event 1',
             type: 'custom',
-            startTime: moment("2018-02-23T11:30:00"),
-            endTime: moment("2018-02-23T13:30:00")
+            startTime: moment("2018-02-23T08:00:00"),
+            endTime: moment("2018-02-23T09:00:00")
           }
         ],
         tuesday: [
@@ -72,7 +72,7 @@ export default class App extends Component {
           events={this.state.events}
           renderHour={this.renderHour}
           renderEvent={this.renderEvent}
-          hoursInterval={[ 7, 24 ]}
+          hoursInterval={[ 8, 17 ]}
           timeLabel="Time :)"
         />
       </div>
